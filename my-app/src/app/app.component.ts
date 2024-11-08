@@ -11,8 +11,12 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   name = 'María Jesús'
   isAutenticated = false
-  data = []
+  data = [1,2,3,4,5,6]
   login(ev:Event){
     this.isAutenticated = true
+  }
+  changeData(){
+    this.data[3]=888;
+
   }
 }
