@@ -1,0 +1,14 @@
+@if(isAutenticated){
+  <div>{{name}}</div>
+}
+@else {
+  <button (click)="login($event)">Login</button>
+}
+<ul>
+@for(item of data;track item){
+  <li>{{item}}</li>
+}
+@empty {
+  <div>No existen elementos</div>
+}
+</ul>
