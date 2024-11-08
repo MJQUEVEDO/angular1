@@ -1,1 +1,4 @@
-<p>grid works!</p>
+@for (day of days; track day) {
+    <app-day [day]="day" [attr.data-day] ="day"/>
+  }
+  
