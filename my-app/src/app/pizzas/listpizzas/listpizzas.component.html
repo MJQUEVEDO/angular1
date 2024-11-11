@@ -1,1 +1,3 @@
-<p>listpizzas works!</p>
+@for (pizza of pizzas; track pizza.id) {
+    <app-pizzaitem [pizza]="pizza"></app-pizzaitem>
+  }

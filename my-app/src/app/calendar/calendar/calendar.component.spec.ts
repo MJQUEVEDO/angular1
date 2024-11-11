@@ -1,17 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { GridComponent } from './grid.component';
 
-describe('GridComponent', () => {
-  let component: GridComponent;
-  let fixture: ComponentFixture<GridComponent>;
+import { CalendarComponent } from './calendar.component';
+
+describe('CalendarComponent', () => {
+  let component: CalendarComponent;
+  let fixture: ComponentFixture<CalendarComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [GridComponent]
+      imports: [CalendarComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(GridComponent);
+    fixture = TestBed.createComponent(CalendarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,11 +1,11 @@
 :host{
-    display: flex;
-    width: 1.25rem;
-    height: 1.25rem;
-    align-items: center;
-    justify-content: center;
-  }
-  :host(:hover){
-    outline: 1px solid blue;
-  }
+  display: flex;
+  width: 1.25rem;
+  height: 1.25rem;
+  align-items: center;
+  justify-content: center;
+}
+:host(:hover){
+  outline: 1px solid blue;
+}
   
